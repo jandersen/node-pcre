@@ -152,7 +152,7 @@ them both to 0; an emulation function will be used. */
    compiled patterns up to 64K long. This covers the vast majority of cases.
    However, PCRE can also be compiled to use 3 or 4 bytes instead. This allows
    for longer patterns in extreme cases. */
-#define LINK_SIZE 2
+#define LINK_SIZE 4
 
 /* Define to the sub-directory in which libtool stores uninstalled libraries.
    */
