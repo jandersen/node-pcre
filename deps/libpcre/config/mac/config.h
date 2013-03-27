@@ -179,12 +179,12 @@ them both to 0; an emulation function will be used. */
 /* This limit is parameterized just in case anybody ever wants to change it.
    Care must be taken if it is increased, because it guards against integer
    overflow caused by enormously large patterns. */
-#define MAX_NAME_COUNT 10000
+#define MAX_NAME_COUNT 100000
 
 /* This limit is parameterized just in case anybody ever wants to change it.
    Care must be taken if it is increased, because it guards against integer
    overflow caused by enormously large patterns. */
-#define MAX_NAME_SIZE 32
+#define MAX_NAME_SIZE 320
 
 /* The value of NEWLINE determines the default newline character sequence.
    PCRE client programs can override this by selecting other values at run
